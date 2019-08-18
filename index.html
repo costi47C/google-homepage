@@ -38,6 +38,40 @@
     a:hover {
         text-decoration: underline;
     }
+
+    form {
+        padding: 10px;
+    }
+
+    input[type=text] {
+        width: 25%;
+        border-radius: 35px;
+        box-sizing: border-box;
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    input[type=button] {
+        background-color: bisque;
+    }
+
+    button {
+        background-color: rgb(209, 209, 206);
+        border-radius: 3px;
+        width: 120px;
+        height: 40px;
+    }
+
+    .searchbar {
+        padding: 10px;
+    }
+
+    .foo {
+        position: absolute;
+        bottom: 0;
+        width: 99%;
+        background-color: rgb(209, 209, 206);
+    }
 </style>
 
 <body>
@@ -54,12 +88,25 @@
     <div class="content">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         <form>
-            <input type="text">
+            <div class="searchbar">
+                <input type="text">
+            </div>
             <br>
             <button>Google Search</button>
             <button>I'm Feeling Lucky</button>
         </form>
     </div>
+
+    <footer>
+            <div class="foo">
+                    <ul>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+    </footer>
+
 </body>
 
 </html>
