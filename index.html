@@ -3,82 +3,17 @@
 
 <head>
     <title>Goo Homepage</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
-
-<style>
-    .content {
-        padding-top: 100px;
-        padding-bottom: 35px;
-        margin: 30px auto;
-        text-align: center;
-        line-height: 10px;
-    }
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    li {
-        float: right;
-    }
-
-    li a {
-        display: block;
-        padding: 8px;
-    }
-
-    a {
-        text-decoration: none;
-        color: rgb(24, 25, 26);
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
-    form {
-        padding: 10px;
-    }
-
-    input[type=text] {
-        width: 25%;
-        border-radius: 35px;
-        box-sizing: border-box;
-        padding: 10px 15px;
-        font-size: 15px;
-    }
-
-    input[type=button] {
-        background-color: bisque;
-    }
-
-    button {
-        background-color: rgb(209, 209, 206);
-        border-radius: 3px;
-        width: 120px;
-        height: 40px;
-    }
-
-    .searchbar {
-        padding: 10px;
-    }
-
-    .foo {
-        position: absolute;
-        bottom: 0;
-        width: 99%;
-        background-color: rgb(209, 209, 206);
-    }
-</style>
 
 <body>
     <header>
         <div class="nav">
             <ul>
-                <li><a href="#">Sign In</a></li>
+                <li><a href="#" class="btn">Sign In</a></li>
                 <li><a href="#">Images</a></li>
                 <li><a href="#">Gmail</a></li>
             </ul>
@@ -95,16 +30,20 @@
             <button>Google Search</button>
             <button>I'm Feeling Lucky</button>
         </form>
+
+        <div class="lng">
+            <p>Google offered in: <a href="#">Romana</a> <a href="#">magyar</a> <a href="#">Deutsch</a></p>
+        </div>
     </div>
 
     <footer>
-            <div class="foo">
-                    <ul>
-                        <li><a href="#">Settings</a></li>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Privacy</a></li>
-                    </ul>
-                </div>
+        <div class="foo">
+            <ul>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
     </footer>
 
 </body>
